@@ -2,6 +2,9 @@
 id: profiling
 title: Profiling
 ---
+:::info
+Starting from version 33.0.1 of Android SDK Platform-Tools, [`systrace has been removed`](https://developer.android.com/tools/releases/platform-tools#3301_march_2022). Use Android Studio Profiler instead.
+:::
 
 Use the built-in profiler to get detailed information about work done in the JavaScript thread and main thread side-by-side. Access it by selecting Perf Monitor from the Debug menu.
 
